@@ -1,0 +1,21 @@
+{
+  "name": "MERN_RestAPI_customersList",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"yarn run start-watch\" \"cd client && yarn start\""
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "dotenv": "6.2.0",
+    "express": "4.16.4",
+    "mongoose": "5.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "4.1.0",
+    "nodemon": "1.18.9"
+  }
+}
